@@ -1,25 +1,22 @@
+{% for entry in listing_object %}
+  {% if entry.name %}
 
-<div>
-  {% for entry in listing_object %}
-    {% if entry.name %}
+      {% assign api_name = entry.name %}
+      {% assign api_slug = entry.x-slug %}
+      {% assign api_description = entry.description %}
+      {% assign api_image = entry.image %}
+      {% assign api_json_url = entry.url %}
+      {% assign api_json_kin_rank = entry.x-kinRank %}
+      {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-        {% assign api_name = entry.name %}
-        {% assign api_slug = entry.x-slug %}
-        {% assign api_description = entry.description %}
-        {% assign api_image = entry.image %}
-        {% assign api_json_url = entry.url %}
-        {% assign api_json_kin_rank = entry.x-kinRank %}
-        {% assign api_json_alexa_rank = entry.x-alexaRank %}
+      {% assign api_json_webhook = "" %}
+      {% for resource in entry.x-common %}
+        {% if resource.type == 'x-webhook' %}
+          {% assign api_json_webhook = resource.url %}
+        {% endif %}
+      {% endfor %}
 
-        {% assign api_json_webhook = "" %}
-        {% for resource in entry.x-common %}
-          {% if resource.type == 'x-webhook' %}
-            {% assign api_json_webhook = resource.url %}
-          {% endif %}
-        {% endfor %}
+      <br />- <a href="http://{{ tag_slug }}.api.gallery.streamdata.io/">{{ api_name }}</a> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %}(<a href="{{ api_json_webhook }}">View Webhooks Information</a>){% endif %}
 
-        <br />- <a href="http://{{ tag_slug }}.api.gallery.streamdata.io/">{{ api_name }}</a> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %}(<a href="{{ api_json_webhook }}">View Webhooks Information</a>){% endif %}
-
-    {% endif %}
-  {% endfor %}
-</div>
+  {% endif %}
+{% endfor %}
