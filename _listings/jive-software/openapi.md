@@ -1,12 +1,9 @@
 swagger: "2.0"
-x-collection-name: Strava
+x-collection-name: Jive Software
 x-complete: 1
 info:
-  title: Strava API v3
-  description: strava-api
+  title: Jive Software
   version: 1.0.0
-host: www.strava.com
-basePath: /api/v3
 schemes:
 - http
 produces:

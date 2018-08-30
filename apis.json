@@ -743,6 +743,21 @@
 			]
 		},
 		{
+			"name": "Jive Software",
+			"x-api-slug": "jive-software",
+			"description": "Jive was headquartered in Palo Alto, California. Founded in 2001, Jive maintains additional offices in Portland, OR; San Francisco, CA; New York, NY; Toronto, Ontario, Canada; Reading, UK; Frankfurt, Germany; So Paulo, Brazil; Tel Aviv, Israel; Melbou...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1541-jive-software.jpg",
+			"humanURL": "https://developers.jivesoftware.com",
+			"baseURL": "https:///",
+			"tags": "Webhook Implementations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/jive-software/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "SurveyMonkey",
 			"x-api-slug": "surveymonkey",
 			"description": "SurveyMonkey is an online survey development cloud-based software as a service company, founded in 1999 by Ryan Finley.",
@@ -792,7 +807,7 @@
 			"x-api-slug": "json-blob",
 			"description": "",
 			"image": "",
-			"humanURL": "https://lob.com",
+			"humanURL": "http://jsonblob.com/api",
 			"baseURL": "https:///",
 			"tags": "Webhook Implementations",
 			"properties": [
@@ -970,8 +985,8 @@
 		{
 			"name": "Marqeta",
 			"x-api-slug": "marqeta",
-			"description": "",
-			"image": "http://pbs.twimg.com/profile_images/657601385467215872/di_r86gn_normal.png",
+			"description": "The Marqeta Platform lets you design the payment cards your business needs. Debit cards. Credit cards. Plastic. Virtual. Tokenized. Plug-and-play the features you want, with the speed and technology you expect today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/marqueta-logo.png",
 			"humanURL": "https://www.marqeta.com/",
 			"baseURL": "https:///",
 			"tags": "Webhook Implementations",
@@ -1105,8 +1120,8 @@
 		{
 			"name": "BigCommerce",
 			"x-api-slug": "bigcommerce",
-			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than 60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies, and industry-leading brands.",
-			"image": "",
+			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigCommerce-logo-dark.png",
 			"humanURL": "http://bigcommerce.com",
 			"baseURL": "https://api.bigcommerce.com//stores",
 			"tags": "Webhook Implementations",
@@ -1120,7 +1135,7 @@
 		{
 			"name": "Microsoft Graph",
 			"x-api-slug": "microsoft-graph",
-			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
 			"humanURL": "https://developer.microsoft.com/en-us/graph/",
 			"baseURL": "https://graph.microsoft.com//",
@@ -1390,7 +1405,7 @@
 		{
 			"name": "Fulcrum",
 			"x-api-slug": "fulcrum",
-			"description": "Fulcrum is the industry-leading data collection platform that enables users to easily build custom apps for capturing information in the field. We make it simple for field service organizations to get the best data possible from their mobile teams. Replace your paper forms with a customizable digital version on Android and iOS devices. From construction and engineering, to utilities, transportation, and disaster relief, we&rsquo;re working to improve efficiency and enable better information and reporting from the field. We think the future of mobile workflow is in simplicity, ease-of-use, and frictionless use of inexpensive consumer technology to power business operations.",
+			"description": "Fulcrum is the industry-leading data collection platform that enables users to easily build custom apps for capturing information in the field. We make it simple for field service organizations to get the best data possible from their mobile teams. Replace your paper forms with a customizable digital version on Android and iOS devices.",
 			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28770-developer-fulcrumapp-com.jpg",
 			"humanURL": "https://www.fulcrumapp.com/",
 			"baseURL": "https:///",
@@ -1630,6 +1645,10 @@
 		{
 			"name": "ChargeBee",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/chargebee/apis.yaml"
+		},
+		{
+			"name": "Jive Software",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/jive-software/apis.yaml"
 		},
 		{
 			"name": "SurveyMonkey",

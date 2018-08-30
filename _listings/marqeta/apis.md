@@ -1,8 +1,10 @@
 ---
 name: Marqeta
 x-slug: marqeta
-description: ""
-image: http://pbs.twimg.com/profile_images/657601385467215872/di_r86gn_normal.png
+description: The Marqeta Platform lets you design the payment cards your business
+  needs. Debit cards. Credit cards. Plastic. Virtual. Tokenized. Plug-and-play the
+  features you want, with the speed and technology you expect today.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/marqueta-logo.png
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Webhook Implementations

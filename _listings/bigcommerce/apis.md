@@ -5,10 +5,8 @@ description: BigCommerce is the world&rsquo;s leading cloud ecommerce platform f
   established and rapidly-growing businesses. Combining enterprise functionality,
   an open architecture and app ecosystem, and market-leading performance, BigCommerce
   enables businesses to grow online sales with 80% less cost, time and complexity
-  than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than
-  60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies,
-  and industry-leading brands.
-image: ""
+  than on-premise software.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/BigCommerce-logo-dark.png
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Webhook Implementations

@@ -5,11 +5,7 @@ description: Fulcrum is the industry-leading data collection platform that enabl
   users to easily build custom apps for capturing information in the field. We make
   it simple for field service organizations to get the best data possible from their
   mobile teams. Replace your paper forms with a customizable digital version on Android
-  and iOS devices. From construction and engineering, to utilities, transportation,
-  and disaster relief, we&rsquo;re working to improve efficiency and enable better
-  information and reporting from the field. We think the future of mobile workflow
-  is in simplicity, ease-of-use, and frictionless use of inexpensive consumer technology
-  to power business operations.
+  and iOS devices.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28770-developer-fulcrumapp-com.jpg
 x-kinRank: "7"
 x-alexaRank: "193872"

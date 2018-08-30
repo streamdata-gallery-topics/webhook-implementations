@@ -2,12 +2,10 @@
 name: Microsoft Graph
 x-slug: microsoft-graph
 description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
-  cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
-  Graph simplifies queries that would otherwise be more complex. You can use Microsoft
-  Graph to: Access data from multiple Microsoft cloud services, including Azure Active
-  Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote,
-  and Planner. Navigate between entities and relationships. Access intelligence and
-  insights from the Microsoft cloud (for commercial users).'
+  cloud services through a single endpoint. Microsoft Graph simplifies queries that
+  would otherwise be more complex. You can use Microsoft Graph to: Access data from
+  multiple Microsoft cloud services, including Azure Active Directory, Exchange Online
+  as part of Office 365, SharePoint, OneDrive, OneNote, and Planner.'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
 x-kinRank: "10"
 x-alexaRank: "0"
