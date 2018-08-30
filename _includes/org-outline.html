@@ -16,7 +16,7 @@
         {% endif %}
       {% endfor %}
 
-      <br />- <a href="http://{{ tag_slug }}.api.gallery.streamdata.io/">{{ api_name }}</a> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}">View Webhooks Information</a>){% endif %}
+      <br />- <a href="http://{{ tag_slug }}.api.gallery.streamdata.io/" style="color:#000;">{{ api_name }}</a> - {{ api_description }}{% if site.github_repo == 'webhook-implementations' %} (<a href="{{ api_json_webhook }}" style="color:#000;">View Webhooks Information</a>){% endif %}
 
   {% endif %}
 {% endfor %}
