@@ -11,7 +11,14 @@
         {% assign api_json_kin_rank = entry.x-kinRank %}
         {% assign api_json_alexa_rank = entry.x-alexaRank %}
 
-        - <a href="http://{{ tag_slug }}.api.galler.streamdata.io/"><strong>{{ api_name }}</strong></p> - {{ api_description }} (<a href="http://{{ tag_slug }}.api.galler.streamdata.io/">View</a>)
+        {% assign api_json_webhook = "" %}
+        {% for resource in entry.x-common %}
+          {% if resource.type == 'x-webhook' %}
+            {% assign api_json_webhook = resource.url %}
+          {% endif %}
+        {% endfor %}
+
+        - <a href="http://{{ tag_slug }}.api.galler.streamdata.io/"><strong>{{ api_name }}</strong></p> - {{ api_description }} (<a href="{{ api_json_webhook }}">View Webhooks Information</a>)
 
     {% endif %}
   {% endfor %}
