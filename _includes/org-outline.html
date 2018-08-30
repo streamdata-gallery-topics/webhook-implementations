@@ -18,8 +18,10 @@
           {% endif %}
         {% endfor %}
 
-        - <a href="http://{{ tag_slug }}.api.galler.streamdata.io/"><strong>{{ api_name }}</strong></p> - {{ api_description }} (<a href="{{ api_json_webhook }}">View Webhooks Information</a>)
-
+        - <a href="http://{{ tag_slug }}.api.galler.streamdata.io/"><strong>{{ api_name }}</strong></p> - {{ api_description }}
+          {% if site.github_repo == 'webhook-implementations' %}
+          (<a href="{{ api_json_webhook }}">View Webhooks Information</a>)
+          {% endif %}
     {% endif %}
   {% endfor %}
 </div>
