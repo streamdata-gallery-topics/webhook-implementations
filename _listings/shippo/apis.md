@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28281-gosh
 x-kinRank: "7"
 x-alexaRank: "33072"
 tags: Webhook Implementations
-created: "2018-08-30"
-modified: "2018-08-30"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/shippo/apis.md
 specificationVersion: "0.14"
 apis: []

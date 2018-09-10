@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2565-smart
 x-kinRank: "7"
 x-alexaRank: "2642"
 tags: Webhook Implementations
-created: "2018-08-30"
-modified: "2018-08-30"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/smartsheet-platform/apis.md
 specificationVersion: "0.14"
 apis: []

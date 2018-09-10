@@ -1,14 +1,14 @@
 ---
 name: Filestack
 x-slug: filestack
-description: 100,000+ applications utilize Filestacks technology to leverage the
+description: 100,000+ applications utilize Filestack???s technology to leverage the
   world???s best file uploading speed, reliability and overall user experience.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1261-filestack.jpg
 x-kinRank: "9"
 x-alexaRank: "212120"
 tags: Webhook Implementations
-created: "2018-08-30"
-modified: "2018-08-30"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/filestack/apis.md
 specificationVersion: "0.14"
 apis: []
@@ -61,6 +61,8 @@ x-common:
   url: https://github.com/carrierwaveuploader/carrierwave
 - type: x-selfservice-registration
   url: https://developers.filepicker.io/register/
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/ink-file-picker?sort=newest&pagesize=50
 - type: x-terms-of-service
   url: https://www.filepicker.io/termsofservice/
 - type: x-twitter

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11776-tran
 x-kinRank: "8"
 x-alexaRank: "65112"
 tags: Webhook Implementations
-created: "2018-08-30"
-modified: "2018-08-30"
+created: "2018-09-10"
+modified: "2018-09-10"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/webhook-implementations/master/_listings/transifex/apis.md
 specificationVersion: "0.14"
 apis: []
